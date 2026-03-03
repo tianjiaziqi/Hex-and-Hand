@@ -17,21 +17,21 @@ The core appeal of the game lies in managing the balance between “construction
 This list defines the minimum feature set required for the project's first playable prototype, intended to validate the feasibility and fun factor of the core gameplay.
 
 
-* **[ ] Grid System**
-    * [ ] Create a 5x5 battlefield grid.
-    * [ ] Convert between grid coordinates and world coordinates.
+* ** Grid System**
+    * [x] Create a 5x5 battlefield grid.
+    * [x] Convert between grid coordinates and world coordinates.
 
-* **[ ] Unit System**
-    * [ ] Create a base unit containing health points (HP) and position attributes.
-    * [ ] Generate player and enemy units on the battlefield.
+* ** Unit System**
+    * [x] Create a base unit containing health points (HP) and position attributes.
+    * [x] Generate player and enemy units on the battlefield.
 
-* **[ ] Dice System**
-    * [ ] Implement the functionality to roll two six-sided dice each turn.
-    * [ ] Display the dice roll result for the current round on the UI.
+* ** Dice System**
+    * [x] Implement the functionality to roll two six-sided dice each turn.
+    * [x] Display the dice roll result for the current round on the UI.
 
-* **[ ] Card System**
-    * [ ] Create three basic cards (Move, Attack, Defense) using ScriptableObjects.
-    * [ ] Implement the logic to pay card costs based on dice rolls.
+* ** Card System**
+    * [x] Create three basic cards (Move, Attack, Defense) using ScriptableObjects.
+    * [x] Implement the logic to pay card costs based on dice rolls.
 
 * **[ ] Game Manager**
     * [ ] Establish the basic turn-based flow (Player Turn -> Enemy Turn).
